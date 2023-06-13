@@ -18,7 +18,7 @@ section {
 }
 .half-width img {
   width: 80%;
-  padding: 80px 50px 50px 90%;
+  padding: 20px;
 }
 .link-button {
   text-decoration: none;
@@ -29,6 +29,6 @@ section {
 }
 .to-banner {
   background-image: url(images/249.jpg);
-  padding: 80px 50px 10px 90px;
-  margin: 200px;
+  padding: 80px;
+  margin: 20px;
 }
