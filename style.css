@@ -1,17 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: "Open Sans", sans-serif;
-  margin: 0;
+  /* background-image: url(images/249.jpg); */
+  background-repeat: no-repeat;
 }
+
 h1 {
   font-size: 50px;
 }
+
 .orange-color {
   color: chocolate;
 }
+
 .flexible-container {
+  margin: 150px;
   display: flex;
-  margin-bottom: 150px;
+  align-items: center;
+  gap: 50px;
 }
+
 .half-with {
   width: 50%;
   padding-left: 30px;
@@ -20,6 +32,8 @@ h1 {
   width: 80%;
 }
 .link-button {
+  display: inline-block;
+  margin-top: 15px;
   text-decoration: none;
   background-image: linear-gradient(orange, rgb(193, 93, 36));
   padding: 10px 10px;
@@ -29,6 +43,7 @@ h1 {
   font-weight: 400;
 }
 .dream-big {
+  flex-direction: row-reverse;
 }
 .Experience-itam {
   box-shadow: 10px 10px 40px rgb(106, 104, 104);
@@ -47,7 +62,7 @@ h1 {
 .Experience-area {
   background-image: url(images/249.jpg);
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: cover;
 }
 footer p {
   text-align: center;
